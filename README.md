@@ -9,14 +9,9 @@ https://github.com/thijse/Arduino-Libraries/tree/master/DCF77
 
 
 The DCF77 library adds the ability to read and decode the atomic time broadcasted by the 
-DCF77 radiostation. It has been designed to work in conjunction with the Arduino Time 
-library and allows a sketch to get the precise CET time and date as a standard C time_t.
-The DCF77 Library download. Example sketches have been added to 
-1) illustrate and debug the incoming signal 
-2) use the library, using the setSyncProvider callback and converting to different 
-   time zones. In order to exploit all features in the library, Both the Time and 
-   TimeZone library are included.
+DCF77 radiostation.
 
+With the included Time library, you can run the SyncProvider sketch example.
 
 ## Time
 
